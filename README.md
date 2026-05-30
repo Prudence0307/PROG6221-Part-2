@@ -63,3 +63,19 @@ Follow these steps to build and run the chatbot from scratch:
 The speech synthesis functionality relies on a Windows-specific assembly. Open the **Package Manager Console** (`Tools > NuGet Package Manager > Package Manager Console`) and run:
 ```bash
 Install-Package System.Speech
+Step 3: Populate the Code Files
+Create the Models and Services folders in your Solution Explorer, then copy your respective .cs and .xaml file contents into the folders as indicated in the Project Directory Structure blueprint above.
+
+Step 4: Build and Run
+Press Ctrl + Shift + B to build the solution and ensure there are no compilation errors.
+
+Press F5 (or click the green Start button at the top) to launch the chatbot application.
+
+💬 How to Interact with the Bot
+Once the application launches, type a message into the input field at the bottom and click Send (or press Enter if configured). Try these triggers to test features:
+
+Keyword Help: Type "Tell me about phishing" or "How can I secure my wifi?"
+
+Sentiment Responses: Type "I am worried about my accounts" or "I'm frustrated with hackers."
+
+Memory Recall: Ask a question about a specific topic first (e.g., "passwords"), then type: "What was my favourite topic?"
